@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mylayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/lay_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionbarheight"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/five"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/five"
+            android:singleLine="true"
+            android:src="@mipmap/ico_left" />
+
+        <View
+            android:id="@+id/img_view3"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/five"
+            android:layout_marginTop="@dimen/five"
+            android:layout_marginBottom="@dimen/five"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/heading"
+            style="@style/textviewstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="@dimen/ten"
+            android:text="Add category"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ts_twenty"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lay_top"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/twentyfive"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_catname"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/editextheight"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextstyle"
+                android:hint="Category Name"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/et_catdesc"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/onehundredfifty"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextstyle"
+                android:gravity="top|left"
+                android:hint="Category Desc"
+                android:inputType="text"
+                android:maxLines="3"
+                android:minLines="3"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/btn_addcat"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonback"
+                android:padding="3dp"
+                android:text="Add Category"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_twenty"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/md_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/md_listitem_margin_left"
+        android:layout_marginStart="@dimen/md_listitem_margin_left"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="@dimen/five"
+        android:textSize="@dimen/ts_eighteen" />
+
+</RelativeLayout>

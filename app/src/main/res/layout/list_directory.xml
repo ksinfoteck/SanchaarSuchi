@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mylayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/five"
+    android:baselineAligned="false"
+    android:elevation="@dimen/three"
+    app:cardCornerRadius="@dimen/three">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <RelativeLayout
+            android:id="@+id/lay_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/five"
+            android:layout_toLeftOf="@+id/lay_editdelete"
+            android:layout_toRightOf="@+id/lay_num"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:padding="@dimen/five"
+                android:text="name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/ts_seventeen" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/text_name"
+                android:background="#ffffff" />
+
+            <TextView
+                android:id="@+id/text_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view"
+                android:gravity="top|left"
+                android:padding="@dimen/five"
+                android:text="Description"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/ts_eighteen" />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

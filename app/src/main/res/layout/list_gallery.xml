@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mylayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lay_backtocolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundcolor"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/mainlay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_itemheight" >
+
+            <RelativeLayout
+                android:id="@+id/layimage"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_itemheight" >
+
+                <ImageView
+                    android:id="@+id/image_gallery"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim_itemheight"
+                    android:layout_alignParentTop="true"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/text_datetime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/ten"
+                android:background="#00000000"
+                android:singleLine="true"
+                android:text="19 Aug 1989"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_thirteen" />
+
+            <TextView
+                android:id="@+id/text_functionname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:maxLines="2"
+                android:padding="2dp"
+                android:text="122 Images\n5 Videos"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_thirteen" />
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/tranculent_back"
+                android:gravity="center"
+                android:padding="6dp"
+                android:singleLine="true"
+                android:text="Annual Day Function"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_twelve"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay_uploadimage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CC000000"
+    android:orientation="horizontal"
+    android:padding="@dimen/ten"
+    android:visibility="gone">
+
+    <TextView
+        android:id="@+id/txt_uploadhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lay_btn"
+        android:background="#ffcc29"
+        android:gravity="center"
+        android:padding="@dimen/five"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:textSize="@dimen/ts_fifteen" />
+
+    <LinearLayout
+        android:id="@+id/lay_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/onehundredfifty"
+        android:layout_above="@+id/dialog_cancel"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:id="@+id/dialog_fromgallery"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:background="#a8cf45"
+            android:padding="@dimen/ten">
+
+            <ImageView
+                android:id="@+id/img_gallery"
+                android:layout_width="@dimen/hundred"
+                android:layout_height="@dimen/hundred"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/choose_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_gallery"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/three"
+                android:singleLine="true"
+                android:text="Browse Gallery"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_eighteen" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+
+        <RelativeLayout
+            android:id="@+id/dialog_fromcamera"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#585da7"
+            android:padding="@dimen/ten">
+
+            <ImageView
+                android:id="@+id/img_gallery2"
+                android:layout_width="@dimen/hundred"
+                android:layout_height="@dimen/hundred"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/capture_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_gallery2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/three"
+                android:singleLine="true"
+                android:text="@string/label_takepicture"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_eighteen" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/dialog_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentBottom="true"
+        android:background="#ffcc29"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/label_cancel"
+        android:textColor="@color/white"
+        android:textSize="@dimen/ts_eighteen" />
+</RelativeLayout>

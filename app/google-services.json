@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "194595334183",
+    "firebase_url": "https://snchrsuchi.firebaseio.com",
+    "project_id": "snchrsuchi",
+    "storage_bucket": "snchrsuchi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194595334183:android:9aa631d1b399f4b5900602",
+        "android_client_info": {
+          "package_name": "in.kamalaenterprize.sncharsuchi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194595334183-kce7fbffbtg2kq127jifp08fmsh406ur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDurDx5s2rSoZcLp-R8PckEyAjZ2Lnlin8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194595334183-kce7fbffbtg2kq127jifp08fmsh406ur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

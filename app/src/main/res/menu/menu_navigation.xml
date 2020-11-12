@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/history"
+            android:title="@string/menu_contacthistory" />
+        <item
+            android:id="@+id/nav_add_alert"
+            android:icon="@drawable/add"
+            android:title="@string/menu_addreport" />
+        <item
+            android:id="@+id/nav_history_offfline"
+            android:icon="@drawable/history"
+            android:title="@string/menu_historyoffline" />
+        <item
+            android:id="@+id/nav_share_app"
+            android:icon="@drawable/shareicon"
+            android:title="@string/menu_share" />
+        <item
+            android:id="@+id/nav_rate_app"
+            android:icon="@drawable/menu_rate"
+            android:title="@string/menu_rate" />
+    </group>
+    <group
+        android:id="@+id/grp_2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_scanqrcode"
+            android:icon="@drawable/help"
+            android:title="@string/menu_scanqrcode" />
+        <item
+            android:id="@+id/nav_generateqrcode"
+            android:icon="@drawable/aboutus"
+            android:title="@string/menu_generateqrcode" />
+    </group>
+    <group
+        android:id="@+id/grp_3"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/help"
+            android:title="@string/menu_help" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/aboutus"
+            android:title="@string/menu_about" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/menu_logout" />
+    </group>
+
+    <group
+        android:id="@+id/grp_4"
+        android:checkableBehavior="none">
+        <item
+            android:title="" />
+        <item
+            android:title="" />
+    </group>
+</menu>

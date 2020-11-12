@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_listitem"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/hundred"
+    android:layout_margin="@dimen/five"
+    android:background="@color/lightgrey" >
+
+    <TextView
+        android:id="@+id/tv_srno"
+        android:layout_width="@dimen/seventyfive"
+        android:layout_height="match_parent"
+        android:background="@color/darkbluish"
+        android:gravity="center"
+        android:text="777"
+        android:textColor="@color/white"
+        android:textSize="@dimen/ts_fifteen"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_stuid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/four"
+        android:layout_marginTop="@dimen/five"
+        android:layout_toRightOf="@+id/tv_srno"
+        android:padding="@dimen/five"
+        android:singleLine="true"
+        android:text="Updating stuid and enrollid........"
+        android:textColor="@color/darkbluish"
+        android:textSize="@dimen/eighteen"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ll_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_stuid"
+        android:layout_marginTop="@dimen/five"
+        android:layout_toRightOf="@+id/tv_srno"
+        android:orientation="horizontal"
+        android:padding="@dimen/four"
+        android:weightSum="12" >
+
+        <TextView
+            android:id="@+id/tv_statusabsent"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fortyfive"
+            android:layout_weight="4"
+            android:background="@drawable/rect_buttonshapegrey"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Absent"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ts_fifteen"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_statuspresent"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fortyfive"
+            android:layout_below="@+id/tv_stuid"
+            android:layout_marginLeft="@dimen/ten"
+            android:layout_toRightOf="@+id/tv_statusabsent"
+            android:layout_weight="4"
+            android:background="@drawable/rect_buttonshapegrey"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Present"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ts_fifteen"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_statusleave"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fortyfive"
+            android:layout_below="@+id/tv_stuid"
+            android:layout_marginLeft="@dimen/ten"
+            android:layout_toRightOf="@+id/tv_statuspresent"
+            android:layout_weight="4"
+            android:background="@drawable/rect_buttonshapegrey"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Leave"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ts_fifteen"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

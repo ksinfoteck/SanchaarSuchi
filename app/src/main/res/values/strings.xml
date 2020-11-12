@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Sanchar Suchi</string>
+    <string name="file_provider_authority">in.kamalaenterprize.sncharsuchi.provider</string>
+
+    <string name="channel_name">crop_chanel</string>
+    <string name="channel_description">crop result image</string>
+    <string name="file_provider_authorities">com.yalantis.ucrop.provider</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="donthaveinternet">Your don\'t have internet connection.</string>
+    <string name="doactivateinternet">Do you want to activate internet.</string>
+
+    <string name="upload_dialoggallery">Take from gallery</string>
+    <string name="upload_dialogcapture">Capture an image</string>
+    <string name="upload_dialogcancel">Cancel</string>
+
+    <string name="error_internet">No internet connection</string>
+    <string name="errorgettingdatafromserver">Error in getting data from server</string>
+    <string name="errorinternetnotavailable">Internet not available.\nPlease activate internet to go further</string>
+    <string name="errorsplashinternetnotavailable">Internet not available.\nPlease activate internet to go further</string>
+
+    <string name="error_nodata_internet">Internet not available. No data to show.</string>
+    <string name="error_nodata">No data to show.</string>
+
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+
+    <string name="permission_title_rationale">Permission needed</string>
+    <string name="permission_read_storage_rationale">Storage read permission is needed to pick files.</string>
+    <string name="permission_write_storage_rationale">Storage write permission is needed to save the image.</string>
+
+    <string name="toast_cannot_retrieve_selected_image">Cannot retrieve selected image</string>
+    <string name="toast_cannot_retrieve_cropped_image">Cannot retrieve cropped image</string>
+    <string name="toast_unexpected_error">Unexpected error</string>
+
+    <string name="notification_image_saved">Image saved</string>
+    <string name="notification_image_saved_click_to_preview">Image saved. Click to preview.</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_ok">OK</string>
+    <string name="label_confirm">Confirm</string>
+    <string name="label_clickhere">click here </string>
+    <string name="label_toreadtermsandcondition">to read terms and conditions</string>
+
+    <string name="label_termsandcondition">Terms and Conditions</string>
+
+    <string name="label_txt_promotedby">by </string>
+    <string name="label_promotedby"> kamala enterprizes</string>
+    <string name="label_takepicture">Take Picture</string>
+
+    <string name="head_notification">View Notification</string>
+    <string name="head_approvealert">Approve Alert</string>
+    <string name="head_travel_history">Previous Contact History</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_addcontacthistory">Add Contact History</string>
+    <string name="menu_contacthistory">Contact History</string>
+    <string name="menu_addreport">Make Alert</string>
+    <string name="menu_historyoffline">History Offline</string>
+    <string name="menu_share">Share App</string>
+    <string name="menu_rate">Rate App</string>
+    <string name="menu_help">FAQ</string>
+    <string name="menu_scanqrcode">ScanQR Code</string>
+    <string name="menu_generateqrcode">Generate QR Code</string>
+    <string name="menu_about">About</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="dash_scanqrcode">Scan QR Code and  Add</string>
+    <string name="dash_scanqrcodedesc">Please keep a proper distance to scan the QR Code.</string>
+
+    <string name="lablogin_btnsignin">S I G N  I N</string>
+    <string name="lablogin_btnotp">S E N D \t  O T P</string>
+    <string name="lablogin_loginmobnumber">MOBILE NUMBER</string>
+    <string name="lablogin_loginotp">OTP</string>
+
+    <string name="lablogin_head">Welcome to Sanchaarv Suchi</string>
+    <string name="lablogin_headdesc">Enter the lab mobile number and otp to login to the lab panel</string>
+
+    <string name="signup_txt_पुरूष">Male</string>
+    <string name="signup_txt_स्त्री">Female</string>
+    <string name="सावधान_whattodo">घाबरू नका, फक्त काळजी घ्या!</string>
+
+    <string name="addreport_header">Make Alert</string>
+    <string name="addreport_title">ALERT THOSE WHO CAME IN YOUR CONTACT</string>
+    <string name="addreport_desc">Please enter your Sanchar Id if you recently got postive report</string>
+    <string name="addreport_edt_sanchaarid">enter sanchaar id</string>
+    <string name="addreport_edt_reportnumber">enter report number"</string>
+    <string name="addreport_edt_fullname">enter full name"</string>
+    <string name="addreport_edt_reportdate">enter report date"</string>
+    <string name="addreport_edt_labname">lab name</string>
+    <string name="addreport_btn_submit">Submit</string>
+
+    <string name="otp_verification_head">Verification</string>
+    <string name="otp_verification_desc">You will get SMS with a confirmation code to this number.</string>
+    <string name="otp_txt_inputcode">Please input code below</string>
+    <string name="otp_txt_resendcode">RESEND CODE</string>
+    <string name="otp_btn_continue">CONTINUE</string>
+
+    <string name="passcode_head">Please enter the passcode below</string>
+    <string name="passcode_btn_verify">VERIFY</string>
+    <string name="passcode_skip">Skip Passcode</string>
+
+    <string name="btn_accept">ACCEPT</string>
+    <string name="btn_reject">REJECT</string>
+
+    <string name="signup_selfie_error">Please click a selfie of yourself</string>
+    <string name="signup_txt_enterz_name">Enter full name</string>
+    <string name="signup_txt_gender">Gender</string>
+    <string name="signup_txt_male">Male</string>
+    <string name="signup_txt_female">Female</string>
+    <string name="signup_btn_register">REGISTER</string>
+    <string name="signup_selfietext">You can\'t change your selfie later so please check the selfie you had clicked, Are you confirm with the current selfie.</string>
+
+    <string name="menu_conceptplanning">Concept and Planning: </string>
+    <string name="menu_planner">Yogesh Shandilya-Tiwari</string>
+    <string name="menu_developedby">Developed by: </string>
+    <string name="menu_developer">Shridhar Tiwari</string>
+
+    <string name="qrcode_head">Please put the QR Code of Sanchaar Suchi Id of your friend or whom you had met recently in the below Scanner</string>
+
+    <string name="dashboard_text_myid">My Sanchar Suchi ID: </string>
+    <string name="dashboard_add_id">Please enter the Sanchar Suchi ID of the person came in close contact or working with you! </string>
+    <string name="dashboard_btn_add">ADD</string>
+
+    <string name="login_title">Verify Your Number</string>
+    <string name="login_desc">Please enter your mobile number to receive a verification code. Carrier rates may apply</string>
+    <string name="login_txt_phonenumber">Phone Number</string>
+
+    <string name="history_selectdate">Select Date</string>
+    <string name="history_showallhistory">Show all history</string>
+
+    <string name="alert_head">Alert</string>
+    <string name="alert_desc">Immediately quaratine yourself and fetch a doctor</string>
+    <string name="alert_whattodo">Don\'t panic. You will be alright!</string>
+
+    <string name="about_txt_head">About</string>
+    <string name="about_txt_about">About Sanchaar Suchi</string>
+    <string name="about_txt_head_help">FAQ</string>
+    <string name="about_txt_website">Website</string>
+    <string name="about_txt_follow_fb">Follow us on facebook</string>
+    <string name="about_txt_rateplaystore">Rate us on playstore</string>
+    <string name="about_txt_termscondition">Write terms and condition</string>
+</resources>
